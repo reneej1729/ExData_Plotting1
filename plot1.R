@@ -17,5 +17,5 @@ hpc$Sub_metering_3 <- as.numeric(hpc$Sub_metering_3)
 
 # To Create Plot1:
 png(filename = "plot1.png")
-hist(hpc$Global_active_power, main = paste("Histogram of", "Global Active Power"), col = "red", xlab = "Global Active Power (kilowatts)")
+hist(hpc$Global_active_power, main = "Global Active Power", col = "red", xlab = "Global Active Power (kilowatts)")
 dev.off()
